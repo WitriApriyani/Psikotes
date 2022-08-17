@@ -1,0 +1,241 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-17T08:14:48.440Z",
+        "line": 9,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2003000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"okok\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"okok\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5002800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T08:14:48.606Z",
+        "line": 10,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"bobob\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bobob\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1003100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T08:14:48.640Z",
+        "line": 11,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"bebeb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bebeb\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T08:14:48.664Z",
+        "line": 12,
+        "name": "Periksa string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;periksa-string-palindrome;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Saya masukin string \"baik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baik\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.saya_masukin_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Saya test apakah palindrome",
+            "match": {
+              "location": "definitions.PalindromeDefinition.saya_test_apakah_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hasilnya harus \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 15
+                }
+              ],
+              "location": "definitions.PalindromeDefinition.hasilnya_harus(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check string palindrome",
+    "description": "",
+    "id": "check-string-palindrome",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresFiles/features.feature",
+    "tags": []
+  }
+]
