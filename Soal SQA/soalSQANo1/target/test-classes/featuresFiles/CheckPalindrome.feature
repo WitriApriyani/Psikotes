@@ -10,3 +10,7 @@ Feature: Check string palindrome
 			| "makam"	| "true" 	|
 			| "katak"	| "true"  |
 			| "katok"	| "false" |
+			
+			
+			
+			

@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-09-24T04:43:32.558Z",
+        "start_timestamp": "2022-09-24T05:00:54.004Z",
         "line": 9,
         "name": "Periksa string palindrome",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1994900,
+              "duration": 1996800,
               "status": "passed"
             },
             "line": 4,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 2991500,
+              "duration": 3988900,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-24T04:43:32.583Z",
+        "start_timestamp": "2022-09-24T05:00:54.032Z",
         "line": 10,
         "name": "Periksa string palindrome",
         "description": "",
@@ -117,7 +117,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-24T04:43:32.592Z",
+        "start_timestamp": "2022-09-24T05:00:54.047Z",
         "line": 11,
         "name": "Periksa string palindrome",
         "description": "",
@@ -127,6 +127,7 @@
         "steps": [
           {
             "result": {
+              "duration": 995500,
               "status": "passed"
             },
             "line": 4,
@@ -173,7 +174,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-24T04:43:32.603Z",
+        "start_timestamp": "2022-09-24T05:00:54.057Z",
         "line": 12,
         "name": "Periksa string palindrome",
         "description": "",
@@ -233,7 +234,7 @@
     "description": "",
     "id": "check-string-palindrome",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/featuresFiles/features.feature",
+    "uri": "file:src/test/resources/featuresFiles/CheckPalindrome.feature",
     "tags": []
   }
 ]
