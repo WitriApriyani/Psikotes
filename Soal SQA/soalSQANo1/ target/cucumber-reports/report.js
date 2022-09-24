@@ -10,7 +10,7 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "Saya masukin string \u003ckata\u003e",
+  "name": "Saya masukin string \u003cinput\u003e",
   "keyword": "Given "
 });
 formatter.step({
@@ -28,31 +28,31 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "kata",
+        "input",
         "output"
       ]
     },
     {
       "cells": [
-        "\"okok\"",
+        "\"makan\"",
         "\"false\""
       ]
     },
     {
       "cells": [
-        "\"bobob\"",
+        "\"makam\"",
         "\"true\""
       ]
     },
     {
       "cells": [
-        "\"bebeb\"",
+        "\"katak\"",
         "\"true\""
       ]
     },
     {
       "cells": [
-        "\"baik\"",
+        "\"katok\"",
         "\"false\""
       ]
     }
@@ -64,7 +64,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "Saya masukin string \"okok\"",
+  "name": "Saya masukin string \"makan\"",
   "keyword": "Given "
 });
 formatter.match({
@@ -99,7 +99,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "Saya masukin string \"bobob\"",
+  "name": "Saya masukin string \"makam\"",
   "keyword": "Given "
 });
 formatter.match({
@@ -134,7 +134,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "Saya masukin string \"bebeb\"",
+  "name": "Saya masukin string \"katak\"",
   "keyword": "Given "
 });
 formatter.match({
@@ -169,7 +169,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "Saya masukin string \"baik\"",
+  "name": "Saya masukin string \"katok\"",
   "keyword": "Given "
 });
 formatter.match({

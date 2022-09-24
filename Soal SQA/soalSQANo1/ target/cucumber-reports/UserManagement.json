@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-17T08:14:48.440Z",
+        "start_timestamp": "2022-09-24T04:43:32.558Z",
         "line": 9,
         "name": "Periksa string palindrome",
         "description": "",
@@ -13,15 +13,15 @@
         "steps": [
           {
             "result": {
-              "duration": 2003000,
+              "duration": 1994900,
               "status": "passed"
             },
             "line": 4,
-            "name": "Saya masukin string \"okok\"",
+            "name": "Saya masukin string \"makan\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"okok\"",
+                  "val": "\"makan\"",
                   "offset": 20
                 }
               ],
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 5002800,
+              "duration": 2991500,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-17T08:14:48.606Z",
+        "start_timestamp": "2022-09-24T04:43:32.583Z",
         "line": 10,
         "name": "Periksa string palindrome",
         "description": "",
@@ -74,11 +74,11 @@
               "status": "passed"
             },
             "line": 4,
-            "name": "Saya masukin string \"bobob\"",
+            "name": "Saya masukin string \"makam\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"bobob\"",
+                  "val": "\"makam\"",
                   "offset": 20
                 }
               ],
@@ -88,7 +88,6 @@
           },
           {
             "result": {
-              "duration": 1003100,
               "status": "passed"
             },
             "line": 5,
@@ -118,7 +117,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-17T08:14:48.640Z",
+        "start_timestamp": "2022-09-24T04:43:32.592Z",
         "line": 11,
         "name": "Periksa string palindrome",
         "description": "",
@@ -128,15 +127,14 @@
         "steps": [
           {
             "result": {
-              "duration": 1000500,
               "status": "passed"
             },
             "line": 4,
-            "name": "Saya masukin string \"bebeb\"",
+            "name": "Saya masukin string \"katak\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"bebeb\"",
+                  "val": "\"katak\"",
                   "offset": 20
                 }
               ],
@@ -175,7 +173,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-08-17T08:14:48.664Z",
+        "start_timestamp": "2022-09-24T04:43:32.603Z",
         "line": 12,
         "name": "Periksa string palindrome",
         "description": "",
@@ -188,11 +186,11 @@
               "status": "passed"
             },
             "line": 4,
-            "name": "Saya masukin string \"baik\"",
+            "name": "Saya masukin string \"katok\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"baik\"",
+                  "val": "\"katok\"",
                   "offset": 20
                 }
               ],
