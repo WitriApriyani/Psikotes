@@ -11,8 +11,8 @@ public class PalindromeDefinition {
 		String testPalindrome;
 		boolean isPalindrome;
 		
-		@Given("Saya masukin string {string}")
-		public void saya_masukin_string(String string) {
+		@Given("Saya input string {string}")
+		public void saya_input_string(String string) {
 			testPalindrome = string;
 		}
 

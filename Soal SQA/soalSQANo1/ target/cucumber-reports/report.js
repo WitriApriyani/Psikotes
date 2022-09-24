@@ -40,13 +40,13 @@ formatter.examples({
     },
     {
       "cells": [
-        "\"makam\"",
+        "\"malam\"",
         "\"true\""
       ]
     },
     {
       "cells": [
-        "\"katak\"",
+        "\"masam\"",
         "\"true\""
       ]
     },
@@ -99,7 +99,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "Saya masukin string \"makam\"",
+  "name": "Saya masukin string \"malam\"",
   "keyword": "Given "
 });
 formatter.match({
@@ -134,7 +134,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "Saya masukin string \"katak\"",
+  "name": "Saya masukin string \"masam\"",
   "keyword": "Given "
 });
 formatter.match({

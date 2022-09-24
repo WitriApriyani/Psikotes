@@ -7,8 +7,8 @@ Feature: Check string palindrome
 		Examples:
 			| input		| output	|
 			| "makan"	| "false" |
-			| "makam"	| "true" 	|
-			| "katak"	| "true"  |
+			| "malam"	| "true" 	|
+			| "masam"	| "true"  |
 			| "katok"	| "false" |
 			
 			

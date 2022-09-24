@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-09-24T05:00:54.004Z",
+        "start_timestamp": "2022-09-24T06:45:50.444Z",
         "line": 9,
         "name": "Periksa string palindrome",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1996800,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 3988900,
+              "duration": 11000000,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-24T05:00:54.032Z",
+        "start_timestamp": "2022-09-24T06:45:50.491Z",
         "line": 10,
         "name": "Periksa string palindrome",
         "description": "",
@@ -74,11 +74,11 @@
               "status": "passed"
             },
             "line": 4,
-            "name": "Saya masukin string \"makam\"",
+            "name": "Saya masukin string \"malam\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"makam\"",
+                  "val": "\"malam\"",
                   "offset": 20
                 }
               ],
@@ -117,7 +117,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-24T05:00:54.047Z",
+        "start_timestamp": "2022-09-24T06:45:50.505Z",
         "line": 11,
         "name": "Periksa string palindrome",
         "description": "",
@@ -127,15 +127,15 @@
         "steps": [
           {
             "result": {
-              "duration": 995500,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "Saya masukin string \"katak\"",
+            "name": "Saya masukin string \"masam\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"katak\"",
+                  "val": "\"masam\"",
                   "offset": 20
                 }
               ],
@@ -174,7 +174,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-09-24T05:00:54.057Z",
+        "start_timestamp": "2022-09-24T06:45:50.529Z",
         "line": 12,
         "name": "Periksa string palindrome",
         "description": "",
